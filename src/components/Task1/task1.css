@@ -1,0 +1,17 @@
+.app-wrapper {
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  background-color: #03c4eb;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.75);
+}

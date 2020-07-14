@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.animals-btn {
+  position: relative;
+  background: #1397d8;
+  color: #fff;
+  padding: 5px;
+}
+
+.animals-btn:before {
+  display: none;
+}
+
+.animals-btn:hover {
+  transform: translateY(-3px);
+  opacity: 1;
+}
+
+.animalWrapper {
+  padding: 20px;
+}
+
+.animal-img {
+  margin-right: 20px;
+}
+
+.animal-pic {
+  width: 250px;
+}
+
+.df {
+  display: flex;
+  align-items:
+    flex-end;
+}
+
+.wrapper {
+  padding: 30px;
+}
+
+.score {
+  min-height: 21px;
+  margin-bottom: 30px;
+}

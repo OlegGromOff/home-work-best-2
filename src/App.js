@@ -1,25 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Task1 from './components/Task1';
+import Task2 from './components/Task2';
+import Task3 from './components/Task3';
+import Task5 from './components/Task5';
+import Task6 from './components/Task6';
+import Task7 from './components/Task7';
+import Task9 from './components/Task9';
+import Task10 from './components/Task10';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Task1 />
+    // <Task2 />
+    // Task3 include Task4
+    // <Task3 />
+    // <Task5 />
+    // <Task6 />
+    // Task 7 include Task8
+    // <Task7 />
+    // <Task9 />
+    // <Task10 />
   );
 }
 

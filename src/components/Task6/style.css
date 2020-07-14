@@ -1,0 +1,20 @@
+.hide-btn {
+  background: #1397d8;
+  color: #fff;
+  margin-top: 30px;
+  padding: 5px;
+}
+
+.hide-btn:before {
+  display: none;
+}
+
+.view-text {
+  padding-left: 35px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.red {
+  color: red
+}
